@@ -1,3 +1,4 @@
 [submodule "hidapi"]
 	path = hidapi
-	url = https://github.com/trustcrypto/hidapi.git
+	url = https://github.com/trustcrypto/hidapi
+	branch = master
