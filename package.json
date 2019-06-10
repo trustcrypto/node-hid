@@ -1,10 +1,12 @@
 {
-  "name": "node-hid",
+  "name": "@trustcrypto/node-hid",
   "description": "USB HID device access library",
   "version": "0.0.3",
   "author": "Hans Hübner <hans.huebner@gmail.com> (https://github.com/hanshuebner)",
-  "bugs": "https://github.com/node-hid/node-hid/issues",
-  "homepage": "https://github.com/node-hid/node-hid#readme",
+  "bugs": {
+    "url": "https://github.com/trustcrypto/node-hid/issues"
+  },
+  "homepage": "https://github.com/trustcrypto/node-hid#readme",
   "contributors": [
     "Blake Miner <miner.blake@gmail.com>",
     "Tod Kurt <todbotdotcom@gmail.com> (https://github.com/todbot)"
@@ -35,7 +37,7 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "license": "(MIT OR X11)",
+  "license": "Apache-2.0",
   "dependencies": {
     "bindings": "^1.5.0",
     "nan": "^2.13.2",
